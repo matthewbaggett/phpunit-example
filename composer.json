@@ -1,0 +1,22 @@
+{
+    "name": "matthewbaggett/phpunit-example",
+    "require": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "authors": [
+        {
+            "name": "Matthew Baggett",
+            "email": "matthew@baggett.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Example\\Test\\": "tests/"
+        }
+    }
+}
